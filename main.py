@@ -51,6 +51,9 @@ while (True):
     
         H2 = H1 - distancia_m
     
+        if (H2 < 0):
+            H2=0
+            
         volumen = H2*supBase
     
         cantLitros = volumen * 1000
